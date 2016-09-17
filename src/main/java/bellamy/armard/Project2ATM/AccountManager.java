@@ -7,9 +7,32 @@ import java.util.ArrayList;
  */
 public class AccountManager {
 
-    private static ArrayList<Account> accounts = new ArrayList<Account>();
+    private ArrayList<Account> accountList;
 
-    public static void addAccount(Account account){
+
+    public AccountManager(){
+        this.accountList = new ArrayList<Account>();
+    }
+
+    public void addAccount(Account.AccountType account,int customerID, double balance){
+        accountList.add(new Account(account, customerID, balance));
+    }
+
+    public Account getAccount(int customerID, int accountNumber){
+        for (Account account: accountList){
+            if ((account.getCustomerID() == customerID) && (account.getAccountNumber() == accountNumber)){
+                return account;
+            }
+        }
+        return null;
 
     }
+
+//    public void deleteAccount(int accountNumber){
+////        accountList.remove(accountNumber);
+//    }
+//
+//    public int getAccountNumber(){
+//        return accountNumber;
+//    }
 }

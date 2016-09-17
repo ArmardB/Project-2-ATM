@@ -5,54 +5,61 @@ package bellamy.armard.Project2ATM;
  */
 public class Account {
 
-    public enum Type {CHECKING, SAVINGS, BUSINESS}
-    private Type type;
+    public enum AccountType {CHECKING, SAVINGS, BUSINESS}
+    private AccountType type;
     private double balance;
     private int accountNumber;
     private double interestRate;
     private static int accountNumCounter = 1;
+    private int customerID;
 
-    public Account(Type type, double balance){
+    public Account(AccountType type, double balance){
         switch (type){
             case CHECKING:
-                this.type = Type.CHECKING;
+                this.type = AccountType.CHECKING;
                 break;
             case SAVINGS:
-                this.type = Type.SAVINGS;
+                this.type = AccountType.SAVINGS;
                 break;
             case BUSINESS:
-                this.type = Type.BUSINESS;
+                this.type = AccountType.BUSINESS;
         }
 
         this.balance = balance;
         this.accountNumber = accountNumCounter++;
 
-        if (Type.SAVINGS.equals(Type.SAVINGS)){
+        if (AccountType.SAVINGS.equals(AccountType.SAVINGS)){
             this.interestRate = 0.075;
-        } else if (Type.BUSINESS.equals(Type.BUSINESS)){
+        } else if (AccountType.BUSINESS.equals(AccountType.BUSINESS)){
             this.interestRate = 0.12;
         }
 
+    }
+
+    public Account(AccountType account, int customerID, double balance){
+        this.type = account;
+        this.customerID = customerID;
+        this.balance = balance;
     }
 
     public Account(){
 
     }
 
-    public void setType(Type type){
+    public void setType(AccountType type){
         switch (type) {
             case CHECKING:
-                this.type = Type.CHECKING;
+                this.type = AccountType.CHECKING;
                 break;
             case SAVINGS:
-                this.type = Type.SAVINGS;
+                this.type = AccountType.SAVINGS;
                 break;
             case BUSINESS:
-                this.type = Type.BUSINESS;
+                this.type = AccountType.BUSINESS;
         }
     }
 
-    public Type getType(){
+    public AccountType getType(){
         return this.type;
     }
 
@@ -62,6 +69,14 @@ public class Account {
 
     public double getInterestRate(){
         return interestRate;
+    }
+
+    public double getBalance(){
+        return balance;
+    }
+
+    public int getCustomerID(){
+        return customerID;
     }
 
 }

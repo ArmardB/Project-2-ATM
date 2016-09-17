@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41abfe93-49ca-4a03-9fd6-73964a24338c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bellamy/armard/Project2ATM/Account$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bellamy/armard/Project2ATM/Account$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bellamy/armard/Project2ATM/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/bellamy/armard/Project2ATM/AccountManagerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/bellamy/armard/Project2ATM/AccountTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/ATM.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/ATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Account.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Account.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/CustomerManager.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/CustomerManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Transaction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/TransactionManager.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/TransactionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandler.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java" afterPath="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountTest.java" />
     </list>
     <ignored path="Project2ATM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,8 +31,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Project2ATM$AccountTest_getInterestRateTest.coverage" NAME="AccountTest.getInterestRateTest Coverage Results" MODIFIED="1474124334082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bellamy.armard.Project2ATM.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="AccountManagerTest.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="375">
+                    <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -30,49 +70,32 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+            <state relative-caret-position="405">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1468#1469#0" expanded="true" />
-                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1780#1781#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1848#1849#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#207#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Display.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountManagerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,13 +122,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java" />
         <option value="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/TransactionManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java" />
         <option value="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/ATM.java" />
         <option value="$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/CustomerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandler.java" />
       </list>
     </option>
   </component>
@@ -128,9 +157,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1282" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="709" />
+    <option name="width" value="1136" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,85 +291,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.getInterestRateTest">
-    <configuration default="false" name="AccountTest.setTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Project2ATM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
-      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountTest" />
-      <option name="METHOD_NAME" value="setTypeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountTest.getTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Project2ATM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
-      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountTest" />
-      <option name="METHOD_NAME" value="getTypeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountTest.getAccountNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Project2ATM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
-      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountTest" />
-      <option name="METHOD_NAME" value="getAccountNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountManagerTest.getAccountTest">
     <configuration default="false" name="AccountTest.getAccountNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -379,6 +331,84 @@
       <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
       <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountTest" />
       <option name="METHOD_NAME" value="getInterestRateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountManagerTest.addAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Project2ATM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
+      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountManagerTest" />
+      <option name="METHOD_NAME" value="addAccountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountManagerTest.getAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Project2ATM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
+      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountManagerTest" />
+      <option name="METHOD_NAME" value="getAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountManagerTest.getAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bellamy.armard.Project2ATM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Project2ATM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bellamy.armard.Project2ATM" />
+      <option name="MAIN_CLASS_NAME" value="bellamy.armard.Project2ATM.AccountManagerTest" />
+      <option name="METHOD_NAME" value="getAccountTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -800,19 +830,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest.setTypeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest.getTypeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumber" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumberTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.getInterestRateTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumberTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest.getInterestRateTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.addAccountTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.getAccount" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.getAccountTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest.getInterestRateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumberTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumber" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.getTypeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.setTypeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.getAccountTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.getAccount" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountManagerTest.addAccountTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.getInterestRateTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.getAccountNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -826,67 +856,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474068783475</updated>
-      <workItem from="1474068784802" duration="7930000" />
+      <workItem from="1474068784802" duration="26316000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest_getAccountNumber - 2016.09.16 at 20h 53m 51s.xml">
-      <configuration name="AccountTest.getAccountNumber" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_addAccountTest - 2016.09.17 at 13h 47m 07s.xml">
+      <configuration name="AccountManagerTest.addAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getAccountNumberTest - 2016.09.16 at 20h 54m 00s.xml">
-      <configuration name="AccountTest.getAccountNumberTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccount - 2016.09.17 at 14h 53m 30s.xml">
+      <configuration name="AccountManagerTest.getAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getAccountNumberTest - 2016.09.16 at 20h 54m 48s.xml">
-      <configuration name="AccountTest.getAccountNumberTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccount - 2016.09.17 at 14h 54m 49s.xml">
+      <configuration name="AccountManagerTest.getAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getAccountNumberTest - 2016.09.16 at 20h 55m 24s.xml">
-      <configuration name="AccountTest.getAccountNumberTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 14h 54m 59s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getInterestRateTest - 2016.09.16 at 20h 59m 42s.xml">
-      <configuration name="AccountTest.getInterestRateTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 14h 55m 52s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getInterestRateTest - 2016.09.16 at 20h 59m 55s.xml">
-      <configuration name="AccountTest.getInterestRateTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 14h 57m 06s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getInterestRateTest - 2016.09.16 at 21h 00m 27s.xml">
-      <configuration name="AccountTest.getInterestRateTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 15h 07m 54s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getInterestRateTest - 2016.09.16 at 21h 00m 49s.xml">
-      <configuration name="AccountTest.getInterestRateTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 15h 21m 41s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_getTypeTest - 2016.09.16 at 20h 28m 45s.xml">
-      <configuration name="AccountTest.getTypeTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 15h 22m 10s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_setTypeTest - 2016.09.16 at 20h 23m 17s.xml">
-      <configuration name="AccountTest.setTypeTest" configurationId="JUnit" />
+    <history-entry file="AccountManagerTest_getAccountTest - 2016.09.17 at 15h 25m 18s.xml">
+      <configuration name="AccountManagerTest.getAccountTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7930000" />
+    <option name="totallyTimeSpent" value="26316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="1282" y="23" width="1136" height="1055" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21079959" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816675" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28244972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -908,7 +939,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -944,62 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/ATM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/CustomerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/TransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1044,37 +1021,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="510">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/ATM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/UserInputHandlerDummy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        <state relative-caret-position="405">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bellamy/armard/Project2ATM/AccountManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,19 +1152,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/AccountManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#207#216#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bellamy/armard/Project2ATM/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
