@@ -5,7 +5,7 @@ package bellamy.armard.Project2ATM;
  */
 public class Account {
 
-    private enum Type {CHECKING, SAVINGS, BUSINESS}
+    public enum Type {CHECKING, SAVINGS, BUSINESS}
     private Type type;
     private double balance;
     private int accountNumber;
@@ -33,6 +33,35 @@ public class Account {
             this.interestRate = 0.12;
         }
 
+    }
+
+    public Account(){
+
+    }
+
+    public void setType(Type type){
+        switch (type) {
+            case CHECKING:
+                this.type = Type.CHECKING;
+                break;
+            case SAVINGS:
+                this.type = Type.SAVINGS;
+                break;
+            case BUSINESS:
+                this.type = Type.BUSINESS;
+        }
+    }
+
+    public Type getType(){
+        return this.type;
+    }
+
+    public int getAccountNumber(){
+        return accountNumber;
+    }
+
+    public double getInterestRate(){
+        return interestRate;
     }
 
 }
