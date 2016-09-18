@@ -26,7 +26,7 @@ public class Account {
         }
 
         this.balance = balance;
-        this.accountNumber = accountNumCounter++;
+
 
         if (AccountType.SAVINGS.equals(AccountType.SAVINGS)){
             this.interestRate = 0.075;
@@ -36,10 +36,20 @@ public class Account {
 
     }
 
-    public Account(AccountType account, int customerID, double balance){
-        this.type = account;
+    public Account(AccountType type, int customerID, double balance){
+        switch (type){
+            case CHECKING:
+                this.type = AccountType.CHECKING;
+                break;
+            case SAVINGS:
+                this.type = AccountType.SAVINGS;
+                break;
+            case BUSINESS:
+                this.type = AccountType.BUSINESS;
+        }
         this.customerID = customerID;
         this.balance = balance;
+        this.accountNumber = accountNumCounter++;
     }
 
     public Account(){
@@ -77,6 +87,14 @@ public class Account {
 
     public int getCustomerID(){
         return customerID;
+    }
+
+    public void withdrawal(double amount){
+        balance -= amount;
+    }
+
+    public void deposit(double amount){
+        balance += amount;
     }
 
 }

@@ -19,7 +19,7 @@ public class UserInputHandler {
     }
 
     public String getUserString(){
-        return scanner.nextLine();
+     return scanner.next().toString();
     }
 
 }

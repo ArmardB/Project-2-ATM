@@ -21,7 +21,21 @@ public class TransactionManager {
         transactionList.add(new Transaction(customerID, fromAccountNumber, toAccountNumber, amount));
     }
 
-    public void printTransaction(){
+    public String printTransaction(int customerID){
+        for (Transaction transactions: transactionList){
+            System.out.println("CustomerID: " + transactions.getCustomerID() + " | " + "Account Number: " +
+                    transactions.getFromAccountNumber() + " | " + "Amount: " + transactions.getAmount() +
+                    " | " + transactions.getTransType());
+        }
+        return null;
+    }
 
+    public Transaction getTransaction(int customerID){
+        for (Transaction transactions: transactionList){
+            if (transactions.getCustomerID() == customerID){
+                return transactions;
+            }
+        }
+        return null;
     }
 }

@@ -13,10 +13,15 @@ public class CustomerManager {
     }
 
     public void addCustomer(String name, int pin){
-
+        customerList.add(new Customer(name, pin));
     }
 
-    public Customer getCustomer(int customerID){
+    public Customer getCustomer(int currentUserID){
+        for (Customer customer: customerList){
+            if (customer.getCustomerID() == currentUserID){
+                return customer;
+            }
+        }
         return null;
     }
 }

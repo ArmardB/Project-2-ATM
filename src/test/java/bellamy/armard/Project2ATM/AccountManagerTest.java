@@ -9,31 +9,39 @@ import org.junit.Test;
  */
 public class AccountManagerTest {
 
-
-
     @Test
     public void addAccountTest(){
-        Account account = new Account(Account.AccountType.CHECKING, 500.00);
         AccountManager accountManager = new AccountManager();
-        Assert.assertNotNull("Should not return null");
+        accountManager.addAccount(Account.AccountType.CHECKING, 1, 500);
+        Assert.assertNotNull(accountManager.getAccount(1,1).getBalance());
     }
 
     @Test
     public void getAccountTest(){
         AccountManager accountManager = new AccountManager();
-        accountManager.addAccount(Account.AccountType.BUSINESS, 123, 500.00);
-        double actual = accountManager.getAccount(123, 1).getBalance();
-        double expected = 100;
-        Assert.assertEquals("Should return ", expected, actual, .05);
+        accountManager.addAccount(Account.AccountType.CHECKING, 1, 100.00);
+        double expected = 100.00;
+        double actual = accountManager.getAccount(1, 1).getBalance();
+        Assert.assertEquals("Should return ", expected, actual, 0);
     }
 
-//    @Test
-//    public void deleteAccountTest(){
-//        Account account = new Account(Account.AccountType.BUSINESS, 500.00);
-//        AccountManager accountManager = new AccountManager();
-//
-//
-//    }
+    @Test
+    public void deleteAccountTest() {
+        AccountManager accountManager = new AccountManager();
+        accountManager.addAccount(Account.AccountType.BUSINESS, 1, 500);
+        accountManager.addAccount(Account.AccountType.CHECKING, 1, 10000);
+        accountManager.deleteAccount(1,1);
+        Account expected = null;
+        Account actual = accountManager.getAccount(1, 1);
+        Assert.assertEquals("Should return null", expected, actual);
+
+
+    }
+
+
+
+
+
 
 
 }
